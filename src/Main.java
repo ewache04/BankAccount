@@ -1,4 +1,8 @@
 // Main class to test the functionality of different bank accounts
+import models.BankAccount;
+import models.CheckingAccount;
+import models.SavingsAccount;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,7 +11,7 @@ public class Main {
         // List to hold various bank account types
         List<BankAccount> accounts = new ArrayList<>();
 
-        // Create and add a SavingsAccount and CheckingAccount to the list
+        // Create and add a models.SavingsAccount and models.CheckingAccount to the list
         accounts.add(new SavingsAccount("SA123", 1000.0));
         accounts.add(new CheckingAccount("CA123", 500.0));
 
